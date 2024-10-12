@@ -1,0 +1,48 @@
+.container {
+    color: var(--white);
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem 5rem;
+    margin-top: 4rem;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );;
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin: 0;
+    }
+}
+
+.title {
+    font-size: 3.2rem;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.name {
+    color: rgb(22, 22, 169);
+    font-weight: 900;
+}
+
+.current {
+    font-size: 6rem;
+    font-weight: 900;
+    margin: 5rem 0;
+}
+
+.temperatures {
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.temperatures p {
+    font-weight: 900;
+}
+
+.temperatures span {
+    font-weight: 400;
+}

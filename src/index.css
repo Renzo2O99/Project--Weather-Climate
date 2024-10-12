@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --white: #fff;
+  --primary-color: #F59E0B;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-image: url('/bg_clima.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: var(--white);
+  font-size: 2rem;
+}
